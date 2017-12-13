@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+config/database.json
+.idea
+*.iml
+bower_components/
+*.Todo
+*.log.*

@@ -1,0 +1,1 @@
+export NODE_ENV=test && ./node_modules/.bin/mocha $(find test -name '*.js')

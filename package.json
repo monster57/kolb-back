@@ -1,0 +1,49 @@
+{
+  "name": "kbits-poc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_ENV=development && nodemon bin/www ",
+    "test": "sh runTest.sh",
+    "testServer": "set NODE_ENV=test && npm start"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-aria": "^1.5.7",
+    "angular-material": "^1.1.0-rc.5",
+    "angular-ui-router": "^0.3.1",
+    "archiver": "^1.2.0",
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^3.4.3",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^4.0.0-alpha.3",
+    "chai": "^3.5.0",
+    "chance": "^1.0.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "lodash": "^4.15.0",
+    "method-override": "^2.3.6",
+    "mocha": "^3.0.2",
+    "mongoose": "^4.5.9",
+    "mongoose-seed": "^0.3.1",
+    "morgan": "^1.7.0",
+    "node-ses": "^2.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.3.0",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.24.0",
+    "file-loader": "^0.9.0",
+    "nodemon": "^1.10.0",
+    "style-loader": "^0.13.1",
+    "supertest": "^2.0.0",
+    "webpack": "^1.13.1",
+    "http-server": "^0.6.1"
+  }
+}
